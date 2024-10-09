@@ -1,0 +1,100 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+
+.ContainerforSignup {
+    background-color: #062863;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.ContainerforFormBox {
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ContainerforFormBox h2 {
+    color: #0155B7;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.ContainerforFormBox p {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.ContainerforFormBox input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #EDF2F7;
+    border: 1px solid transparent;
+}
+
+/* .ContainerforFormBox label{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 30px;
+} */
+.ContainerforFormBox button {
+    width: 80%;
+    padding: 15px;
+    background-color: #0056b3;
+    border-radius: 8px;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 33px;
+}
+
+.buttonClick{
+    margin-top: 15px;
+}
+.ContainerforFormBox button:hover {
+    background-color: #003f7f;
+}
+
+.ContainerforFormBox label {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: black;
+    /* font-size: 14px; */
+}
+
+.LoginLink {
+    /* color: grey; */
+    color: #0040b2;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    /* font-weight: 300; */
+   
+}

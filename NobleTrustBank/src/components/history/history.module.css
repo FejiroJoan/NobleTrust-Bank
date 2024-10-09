@@ -1,0 +1,89 @@
+.historyContent {
+    padding-left: 26px;
+    padding-top: 30px;
+    padding-bottom: 66px;
+    padding-right: 42px;
+  }
+  
+  .box1 {
+    width: 1108px;
+    height: 114px;
+    background: hsla(208, 71%, 96%, 1);
+    border-radius: 8px;
+    margin-top: 39px;
+    display: grid;
+    place-items: center;
+  }
+  
+  .box2 {
+    width: 809px;
+    height: 71px;
+    background: hsla(0, 0%, 100%, 1);
+    border-radius: 8px;
+    margin-left: 56px;
+    margin-right: 243px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box2Span {
+    width: 121px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 24px;
+    padding-right: 664px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .dropdownBtn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .dropdownBtnI {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .dropdownList {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+  }
+  
+  .dropdownListLi {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .dropdownListLiA {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdownListLiAHover {
+    background-color: #f0f0f0;
+  }
+  
+  .noRecentHistory {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  

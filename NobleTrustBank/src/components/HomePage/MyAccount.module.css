@@ -1,0 +1,249 @@
+/* .mainContent {
+    position: relative;
+    background-color: #EDF5FC;
+    min-height: 100vh;
+    top: 0;
+    left: 80px;
+    transition: all 0.5s ease;
+    width: calc(100% - 80px);
+    padding: 1rem;
+} */
+
+/* .containerLayout {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #EDF5FC;
+} */
+
+/* .containerLink {
+    color: black;
+    border-radius: 0.8rem;
+} */
+
+/* .containerIcon {
+    padding-right: 50px;
+    height: 50px;
+    line-height: 35px;
+} */
+
+/* .containerTooltip {
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 6px 19px;
+    line-height: 29px;
+    z-index: 200;
+    opacity: 0;
+} */
+/* 
+.containerLinkHover:hover .containerTooltip {
+    opacity: 1;
+} */
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.userInfo p{
+    color: #0155B7;
+}
+
+.userIcon {
+    font-size: 20px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    color: #0155B7;
+}
+
+.accountContent {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.accountCardContent{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    background-color: #fff;
+    color: black;
+}
+
+.accountCard {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    background-color: #fff;
+    color: black;
+}
+
+
+.accountCard:hover {
+    background-color: #0155B7;
+    /* color: white; */
+}
+/* 
+.accountCard .cardIcon{
+    color: black;
+} */
+
+.cardTitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+}
+/* .cardTitle:hover{
+    color: white;
+} */
+
+.accountCardContent p {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: black;
+}
+
+.accountCard ul li {
+    position: relative;
+    list-style-type: none;
+    height: 30px;
+    width: 90%;
+    margin: 8px auto;
+}
+
+.accountCard ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.accountCard a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.accountCard  i {
+    font-size: larger;
+    font-weight: normal;
+}
+
+/* .accountCard a i:hover{
+    color: white; 
+    font-weight: bold;
+} */
+
+/* .accountCard:hover .iconList a{
+    color: white;
+    color: black;
+} */
+
+.accountCard:hover .cardIcon a{
+    color: black;
+}
+
+
+.cardIcon:hover .iconList a{
+    color: white;
+    font-weight: bold;
+}
+
+/* .accountCard:hover .setupContent .iconText{
+    background-color: pink;
+    
+} */
+
+.iconText:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.iconText {
+    margin-bottom: 2px;
+    margin-left: 8px;
+}
+
+.transferContainer {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 33px;
+    padding: 20px;
+    height: 200px;
+    background-color: #fff;
+    color: black;
+}
+
+.transferTitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.transferContainer p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    margin-top: 10px;
+}
+
+.transferSubContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.activeCard{
+    text-align: right;
+}
+
+.balance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    /* padding-right: 20px; */
+}
+
+.balance h4{
+    font-size: 18px;
+    color: #333;
+}
+
+.savings{
+    text-align: right;
+}
+
+

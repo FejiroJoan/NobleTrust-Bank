@@ -1,0 +1,203 @@
+/* .dashboardContainer {
+    display: flex;
+    width:100%;
+} */
+ 
+.sidebar{
+    position: absolute;
+    top: 20;
+    left: 0;
+    height: 125vh;
+    width: 80px;
+    background-color: #0155B7;
+    padding: 4px 8px;
+    transition: all 0.5s ease;
+}
+ 
+.sidebar.active ~ .main-content{
+    left: 250px;
+    width: calc(100% - 250px);
+}
+ 
+.sidebar.active{
+    width: 250px;
+}
+
+/* .sidebar .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ 
+.sidebar #btn{
+    position: absolute;
+    color: white;
+    top: 4px;
+    left: 50%;
+    font-size: 1.2rem;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+}
+ 
+.sidebar.active #btn{
+    left: 90%;
+}
+ 
+.sidebar .top .logo{
+    color: white; 
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.sidebar.active .top .logo{
+    opacity: 1;
+}
+ 
+/* .sidebar.active .top{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .sidebar.active .top .logoCtn{
+    display: block;
+}
+  */
+.top.logo img{
+    margin-right: 5px;
+}
+
+/* .sidebar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .sidebar .navlink {
+    padding-right: 30px;
+    margin-right: 20px;
+} */
+ 
+.sidebar ul li{
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    width: 90%;
+    margin: 8px auto;
+    padding-top: 15px;
+    margin-top: 10px;  
+}
+ 
+.sidebar ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem
+}
+ 
+.sidebar ul li a :hover{
+    background-color: #EDF5FC;
+    color: black;
+}
+
+/* .sidebar.active ul li a:hover{
+    background-color: #EDF5FC;
+    color: black;
+}
+  */
+.sidebar ul li a i{
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+ 
+.sidebar .nav-item{
+    opacity: 0;
+}
+ 
+.sidebar.active .nav-item{
+    opacity: 1;
+}
+ 
+.sidebar ul li .tooltip{
+    position: absolute;
+    left: 125px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 6px 19px;
+    line-height: 29px;
+    z-index: 20;
+    opacity: 0;
+   color: black;
+}
+ 
+.sidebar ul li:hover .tooltip{
+    opacity: 1;
+}
+ 
+.sidebar.active ul li .tooltip{
+    display: none;
+}
+ 
+.content-view{
+    /* width: 100%; */
+    position: relative;
+    background-color: #EDF5FC;
+    min-height: 100vh;
+    top: 0;
+    left: 80px;
+    transition: all 0.5s ease;
+    width: calc(100% - 80px);
+    padding: 1rem;
+}
+ 
+.dashContainer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #EDF5FC;
+}
+
+ 
+.dashContainer a{
+    color: black;
+    border-radius: 0.8rem;
+ 
+}
+
+.dashContainer a i{
+    padding-right: 50px;
+    /* min-width: 50px; */
+    height: 50px;
+    line-height: 35px;
+}
+ 
+.dashContainer .tooltip{
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 6px 19px;
+    line-height: 29px;
+    z-index: 200;
+    opacity: 0;
+}
+
+.dashContainer :hover .tooltip{
+    opacity: 1;
+}

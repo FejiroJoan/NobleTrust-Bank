@@ -1,0 +1,59 @@
+
+/* body {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    background-color: #EDF5FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .textAboutUs {
+    width: 100%;
+    margin: 0 0 10px;
+} */
+
+.textAroundImage {
+    color: #000;
+    /* font-family: sans-serif; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 500;
+    margin: 50px;
+ 
+}
+
+h3 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+}
+
+.aboutUsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* gap: 20px; */
+    /* width: 100%; */
+    /* margin: 60px; */
+    /* padding: 50px; */
+    /* padding: 50px; */
+    margin: 120px;
+}
+
+.aboutUsImage{
+   margin-right: 8px;
+   margin-top: 100px;
+   margin-bottom: 20px;
+   padding-top: 30px;
+}
+
+.textForAboutUs{
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
